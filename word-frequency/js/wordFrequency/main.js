@@ -1,5 +1,6 @@
 function main() {
   const text = getText().replace(/[^a-zA-Z ]/g, "");
+  console.log(text);
   const words = text.split(" ");
   const freqCounts = {};
 
